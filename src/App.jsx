@@ -91,8 +91,8 @@ export default function PromptGenerator() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 flex flex-col items-center p-6">
-      <h2 className="text-2xl font-bold mb-4">🎨 Midjourney Prompt Generator</h2>
+    <div className="min-h-screen flex flex-col items-center p-6">
+      <h2 className="text-2xl lg:text-3xl font-bold mb-4">🎨 Midjourney Prompt Generator</h2>
 
       <select
         value={theme}
